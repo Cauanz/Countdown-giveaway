@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+#container {
+  height: 100%;
+  display: flex;
+  padding: 150px;
+  align-items: center;
+  background-color: #f0f7fc;
+}
+
+.image {
+  flex: 1;
+  height: 500px;
+  background: url(public/gift.jpeg) no-repeat center center/cover;
+}
+
+.content {
+  flex: 1;
+  height: 500px;
+  margin-left: 30px;
+  padding: 30px;
+}
+
+.content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #276089;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 60px;
+  text-transform: capitalize;
+  letter-spacing: 5px;
+}
+
+.content p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #839bb0;
+}
+
+.cubes {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 70px;
+}
+
+.cube {
+  flex: 1;
+  height: 100px;
+  background-color: #102b42;
+  font-size: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.cube h1, .cube p {
+  margin: 0;
+  color: #fff;
+}
